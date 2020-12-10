@@ -4,10 +4,7 @@ a{
     color: #333;
 }
 a:hover{
-    color: skyblue;
-}
-i:hover{
-    color:skyblue;
+    color: #1890ff;
 }
 body{
     /* width: 1081px; */
@@ -21,4 +18,23 @@ body{
 }
 li{
     list-style: none;
+}
+.clearfix:after{
+    content:"";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom:1;
+}
+.col-1{
+    width: 208px;
+}
+.col-space{
+    margin-right: 10px;
+}
+.col-4{
+    width: 862px;
 }

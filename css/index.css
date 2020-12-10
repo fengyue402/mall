@@ -1,0 +1,57 @@
+/* 顶部区域
+---------------------------------------------------------------- */
+.top{
+    height: 30px;
+    background-color: #f3f3f3;
+    line-height: 30px;
+}
+.top .left-top{
+    float: left;
+}
+.top li{
+    float: right;
+    margin-right: 5px;
+}
+.top .right-top{
+    float: right;
+}
+.top .right-top .list{
+    float: left;
+    margin-right: 10px;
+    padding:  0 5px;
+}
+.top .right-top .list:hover{
+    background-color: rgba(243,243,243,0.5 );
+}
+
+/* 头部搜索
+---------------------------------------------------------------- */
+.head{
+    height: 100px;
+    background-color: #fff;
+}
+/* 焦点区域
+---------------------------------------------------------------- */
+.focus{
+    height: 440px;
+    background-color: chocolate
+}
+/* 热销区域
+---------------------------------------------------------------- */
+.hot{
+    height: 302px;
+    background-color: cornflowerblue;
+}
+/* 楼层区域
+---------------------------------------------------------------- */
+.floor{
+    height: 692px;
+    background-color: yellow;
+}
+
+/* 底部导肮
+---------------------------------------------------------------- */
+.footer{
+    height: 248px;
+    background-color: #2f2f2f;
+}

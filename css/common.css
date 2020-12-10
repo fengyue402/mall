@@ -1,0 +1,24 @@
+a{
+    /* font-size: 12px; */
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    color: skyblue;
+}
+i:hover{
+    color:skyblue;
+}
+body{
+    /* width: 1081px; */
+    /* margin: 0 auto; */
+    font-size: 12px;
+    background-color: #eee;
+}
+.box{
+    width: 1081px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}

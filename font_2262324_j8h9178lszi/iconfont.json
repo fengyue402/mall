@@ -1,0 +1,16 @@
+{
+  "id": "2262324",
+  "name": "mall-shopping",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5563818",
+      "name": "购物车",
+      "font_class": "gouwuche2",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    }
+  ]
+}

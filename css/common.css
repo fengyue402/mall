@@ -13,7 +13,7 @@ body{
     background-color: #eee;
 }
 .box{
-    width: 1081px;
+    width: 1100px;
     margin: 0 auto;
 }
 li{
@@ -36,5 +36,11 @@ li{
     margin-right: 10px;
 }
 .col-4{
-    width: 862px;
+    width: 860px;
+}
+shadow:hover{
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.2);
+}
+shadow a:hover{
+    color: #333;
 }

@@ -38,9 +38,45 @@ li{
 .col-4{
     width: 860px;
 }
-shadow:hover{
-    box-shadow: 3px 3px 2px rgba(0,0,0,0.2);
+/*  */
+.hot-list{
+    float: left;
 }
-shadow a:hover{
-    color: #333;
+.right-hot{
+    float: left;
+    background-color: #eee;
+    height: 300px;
+    width: 1082px;
+}
+.right-hot .hot-list{
+    float: left;
+    height: 300px;
+    padding: 20px 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+.right-hot .hot-list:hover{
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+.list-name{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.price{
+    float:left;
+    font-size: 14px;
+    color: red;
+}
+.person{
+    float:right;
+    opacity: 0.5;
+    font-size: 14px;
+}
+.right-hot .hot-list:nth-child(5n){
+    margin: 0;
 }

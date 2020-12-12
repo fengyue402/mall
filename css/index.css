@@ -208,12 +208,20 @@
 }
 .hot .right-hot{
     float: left;
-    background-color: #fff;
+    background-color: #eee;
     height: 300px;
-    box-sizing: border-box;
-    text-align: center;
-    padding: 20px 0px;
     width: 862px;
+}
+.hot .right-hot .hot-list{
+    float: left;
+    height: 300px;
+    padding: 20px 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+.hot .right-hot .hot-list:hover{
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
 }
 .hot .list-name{
     overflow: hidden;
@@ -241,14 +249,65 @@
 ---------------------------------------------------------------- */
 .floor{
     height: 692px;
-    background-color: yellow;
+    margin-bottom: 40px;
+    /* background-color: yellow; */
 }
-
+.floor .floor-wrap .floor-title{
+    border-bottom: 1px solid #52c41a;
+    margin-bottom: 0px;
+}
+.floor .floor-wrap  a{
+    font-size: 18px;
+    color: #52c41a;
+}
+.floor .floor-wrap{
+    margin-bottom: 40px;
+}
+.active{
+    margin-bottom: 40px;
+}
 /* 底部导肮
 ---------------------------------------------------------------- */
 .footer{
-    height: 248px;
     background-color: #2f2f2f;
-    
 }
-
+.footer .box{
+    height: 248px;
+}
+.footer .foot-list{
+    padding: 50px 40px;
+    border-bottom: 1px solid #3d3d3d;
+}
+.footer .foot-list .icon{
+    font-size: 18px;
+    color: #fff;
+    height: 36px;
+    display: inline-block;
+    line-height: 36px;
+    background-image: url(../image/us-icon.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.footer .foot-list .icon1{
+    margin-right: 210px;
+}
+.footer .foot-list .icon2{
+    margin-right: 210px;
+    background-position: 0 -45px;
+    padding-left: 56px;
+}
+.footer .foot-list .icon3{
+    background-position: 0 -82px;
+}
+.footer .links{
+    padding: 10px 0;
+    text-align: center;
+}
+.footer .links a{
+    color: #888;
+    padding: 0 10px;
+}
+.footer .end{
+    text-align: center;
+    color: #888;
+}

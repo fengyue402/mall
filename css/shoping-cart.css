@@ -1,0 +1,177 @@
+/* 顶部区域
+------------------------------------------------------------- */
+.top{
+    height: 30px;
+    background-color: #f3f3f3;
+    line-height: 30px;
+}
+.top .left-top{
+    float: left;
+}
+.top .active{
+    margin-left: 10px;
+}
+.top li{
+    float: right;
+    margin-right: 5px;
+}
+.top .right-top{
+    float: right;
+}
+.top .right-top i{
+    font-size: 12px;
+}
+.top .right-top .list{
+    float: left;
+    margin-right: 10px;
+    padding:  0 5px;
+}
+.top .right-top .list:hover{
+    background-color: #fff;
+}
+
+/* 搜索区域
+---------------------------------------------------------------- */
+.header{
+    height: 110px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #52c41a;
+}
+.header .logo{
+    float: left;
+}
+.header .right-head{
+    float: right;
+    height: 110px;
+}
+.header .logo a{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 110px;
+    color:#52c41a ;
+}
+.header .search{
+    margin-top:18px ;
+    margin-left: 15px;
+}
+.search-input{
+    width: 412px;
+    height: 40px;
+    border: 2px solid #52c41a;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+    float: left;
+}
+.submit{
+    background-color: #52c41a;
+    width: 105px;
+    height: 44px;
+    float: left;
+    /* border: 2px solid #52c41a; */
+    line-height: 40px;
+    padding: 0 36px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #fff;
+}
+.submit:hover{
+    opacity: 0.8;
+    color: #fff;
+}
+.header .head-list{
+    margin-top: 25px;
+}
+.header .head-list .nav-list{
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 42px;
+}
+.header .head-list .nav-list .active{
+    color: #52c41a;
+}
+
+/* 购物车区域
+---------------------------------------------------------------- */
+.cart{
+    height: 532px;
+    margin-top: 44px;
+    margin-bottom: 256px;
+    background-color: #eee;
+}
+.cart .title .gt{
+    display: inline;
+}
+.cart .title{
+    /* border: 1px solid #000; */
+    font-size: 14px;
+}
+.cart .form{
+    margin-top: 23px;
+    margin-bottom: 15px;
+    height: 40px;
+    background-color: #ddd;
+}
+.cart .left-form{
+    float: left;
+}
+.cart .right-form{
+    float: right;
+    text-align: center;
+    
+}
+.cart .right-form li{
+    display: inline;
+    margin-right: 85px;
+}
+.cart .tt{
+    display: inline-block;
+    margin-left: 23px;
+}
+/* 底部搜索
+---------------------------------------------------------------- */
+.footer{
+    background-color: #2f2f2f;
+}
+.footer .box{
+    height: 248px;
+}
+.footer .foot-list{
+    padding: 50px 40px;
+    border-bottom: 1px solid #3d3d3d;
+}
+.footer .foot-list .icon{
+    font-size: 18px;
+    color: #fff;
+    height: 36px;
+    display: inline-block;
+    line-height: 36px;
+    background-image: url(../image/us-icon.png);
+    background-repeat: no-repeat;
+    padding-left: 70px;
+}
+.footer .foot-list .icon1{
+    margin-right: 210px;
+}
+.footer .foot-list .icon2{
+    margin-right: 210px;
+    background-position: 0 -45px;
+    padding-left: 56px;
+}
+.footer .foot-list .icon3{
+    background-position: 0 -82px;
+}
+.footer .links{
+    padding: 10px 0;
+    text-align: center;
+}
+.footer .links a{
+    color: #888;
+    padding: 0 10px;
+}
+.footer .end{
+    text-align: center;
+    color: #888;
+}
